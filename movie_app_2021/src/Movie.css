@@ -1,3 +1,39 @@
 body{
-    background-color: white;
+    background-color: rgba(120, 110, 110, 0.728);
+}
+
+
+.movie__img{
+    max-width: 140px;
+    position: relative;
+    top: -30px;
+}
+
+.genres{
+    padding: 0;
+}
+
+.movie .h3,
+.movie .h5{
+    font-weight: 300;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.movie__year{
+    font-size: 17px;
+}
+
+.genres__genre{
+    list-style: none;
+    float: left;
+    margin-right: 5px;
+    text-align: left;
+    padding: 0;
+    display: flex;
+}
+
+.genres__genre,
+.movie__year{
+   color: #B2B3bb;
 }
