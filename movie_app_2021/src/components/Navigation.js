@@ -1,7 +1,6 @@
 import React from "react";
-import {Link} from "react-router-dom"
+import {Link} from "react-router-dom";
 import "./Navigation.css";
-import style from "styled-components";
 
 /*
 const StyledLink = style(Link)`
@@ -17,10 +16,8 @@ const StyledLink = style(Link)`
 
 function Navigation(){
     return (<div className = "menu">
-        <>
         <Link className = "links" to ="/">Home</Link>
-        <Link className = "links" to = "/about">About</Link>
-        </>    
+        <Link className = "links" to = "/about">About</Link>  
     </div>
     );
 }
